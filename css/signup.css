@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+}
+
+header img {
+    max-width: 1000px;
+    width: 100%;
+
+}
+
+header {
+    background-color: #EDEDF5;
+    text-align: center;
+}
+
+.container {
+    max-width: 1000px;
+}
+
+

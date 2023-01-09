@@ -1,0 +1,51 @@
+body, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.container { 
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* header */
+
+.header_inner {
+    background: rgb(31, 31, 31);
+    color: black;
+    padding: 20px;
+}
+
+.header_inner .container .row {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.header_inner .container .row a {
+    text-decoration: none;
+    color: white;
+}
+
+/* main */
+
+.main_inner {
+    background: rgb(43, 43, 43);
+    padding: 200px;
+}
+
+.main_inner .container .row {
+    text-align: center;
+    vertical-align: middle;
+    flex-direction: column;
+}
+
+.col_text {
+    font-size: 30px;
+    color: white;
+}

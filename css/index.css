@@ -1,0 +1,181 @@
+body, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.container { 
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* header */
+
+.header_inner {
+    background: #000;
+    color: white;
+    padding: 20px;
+    vertical-align: middle;
+}
+
+.header_inner .container {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    position: relative;
+    
+    
+}
+
+.header_inner .container .row {
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.header_inner .container .row .col {
+    vertical-align: middle;
+}
+
+.col_text {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+}
+
+.col_search {
+    display: flex;
+    gap: 2px;
+    vertical-align: middle;
+}
+
+
+.link_sign {
+    text-decoration: none;
+    /* width: 50px; */
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+
+}
+
+
+.btn-own {
+    background: white;
+    color: #000;
+    font-size: 20px;
+}
+
+.link_img {
+    padding: 3px;
+    border: white solid 2px;
+    background: white;
+    border-radius: 50%;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.col_filtr {
+    vertical-align: middle;
+}
+
+/* intro */
+
+.imgC {
+    object-fit: cover;
+    width: 200px;
+    height: 700px;
+}
+
+.intro_inner {
+    margin: 10px 0px;
+}
+
+.intro_inner .container .row {
+    gap: 10px;
+    justify-content: center;
+}
+
+.intro_inner .container .row .col {
+    text-align: center;
+}
+
+/* cloth choose */
+
+.choose_inner {
+    background: #000;
+    padding: 40px;
+    margin-top: 40px;
+    border-radius: 15px;
+}
+
+.choose_inner .container .row {
+    gap: 20px;
+    justify-content: center;
+}
+
+.choose_inner .container .row .col {
+    text-align: center;
+    cursor: pointer;
+}
+
+.choose_inner .container .row .col img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.choose_inner .container .row .col .text_cloth_choose {
+    font-size: 25px;
+    color: white;
+}
+
+/* footer */
+
+.footer_inner {
+    background: white;
+    color: #000;
+    border-radius: 15px;
+}
+
+.footer_inner .container .row {
+    padding: 30px;
+    justify-content: center;
+    vertical-align: middle;
+    font-size: 40px;
+}
+
+.footer_inner_2 {
+    padding: 0;
+    margin: 0;
+}
+
+.footer_link {
+    background: black;
+    padding: 20px;
+}
+
+.footer_nav {
+    display: flex;
+    gap: 25px;
+    justify-content: flex-start;
+    margin-left: 80px;
+}
+
+.link_vk, .link_github {
+    text-decoration: none;
+    width: 60px;
+    color: white;
+    background: white;
+    padding: 5px;
+    border: white solid 2px;
+    border-radius: 30px;
+}
+
